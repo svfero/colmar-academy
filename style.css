@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+
+}
+
+/* NAVBAR */
+
+header{
+    height: 64px;
+    margin: 0 24px;
+}
+
+header h1{
+    display: inline;
+    font-size: 32px;
+    margin: 20px 20px;
+    vertical-align: middle;
+}
+
+ul{
+    display: inline;
+    float: right;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+    margin: 20px 16px;
+    vertical-align: middle;
+}
+
+.logo{
+    display: inline-block;
+    margin: 15px;
+    vertical-align: middle;
+}
+
+/* HERO SECTION */
+
+.hero{
+    width: 100%;
+    background-color: lightgray;
+    align-items: center;
+}
+
+.hero img{
+    width: 60%;
+    margin: 32px 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hero-text{
+    display: inline-block;
+    width: 30%;
+    color: rgb(71, 71, 71);
+    vertical-align: middle;
+
+}
+
+#start-here{
+    padding: 8px;
+    width: 100%;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    border: 0px;
+}
