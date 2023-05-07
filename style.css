@@ -68,3 +68,30 @@ li{
 
 /* INFORMATION SECTION  */
 
+.info-container-big{
+    width: 60%;
+    display: inline-block;
+}
+
+.info-big-image{
+    margin: 32px 24px;
+}
+
+.info-container-big img{
+    width: 100%;
+}
+
+.info-container-small{
+    display: inline-block;
+    width: 39%;
+}
+
+.card img{
+    width: 35%;
+    display: inline-block;
+}
+
+.card .text{
+    width: 63%;
+    display: inline-block;
+}
