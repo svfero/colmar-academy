@@ -1,6 +1,6 @@
 body{
-    font-family: sans-serif;
-
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(71, 71, 71);
 }
 
 /* NAVBAR */
@@ -68,22 +68,27 @@ li{
 
 /* INFORMATION SECTION  */
 
-.info-container-big{
+.information .container-big{
     width: 60%;
     display: inline-block;
 }
 
-.info-big-image{
-    margin: 32px 24px;
-}
-
-.info-container-big img{
+.information .container-big img{
     width: 100%;
 }
 
-.info-container-small{
+.info-big{
+    margin: 32px 24px;
+}
+
+.information .container-small{
     display: inline-block;
     width: 39%;
+}
+
+.card .container{
+    margin: 16px;
+    display: inline-block;
 }
 
 .card img{
@@ -94,4 +99,8 @@ li{
 .card .text{
     width: 63%;
     display: inline-block;
+}
+
+.card p, .card h3, .card a{
+    margin: 8px;
 }
