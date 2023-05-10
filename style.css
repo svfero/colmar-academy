@@ -86,21 +86,20 @@ li{
     width: 39%;
 }
 
-.card .container{
+.information .card .container{
     margin: 16px;
     display: inline-block;
 }
 
-.card img{
+.information .card img{
     width: 35%;
     display: inline-block;
 }
 
-.card .text{
+.information .card .text{
     width: 63%;
     display: inline-block;
 }
 
-.card p, .card h3, .card a{
-    margin: 8px;
-}
+/* START LEARNING SECTION */
+
