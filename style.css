@@ -103,12 +103,18 @@ li{
 
 /* START LEARNING SECTION */
 
-.start-learning .card{
-    width: 30%;
-    display: inline-block;
-    justify-items: space-between;
+
+.start-learning{
+    background-color: rgb(222, 221, 221);
+}
+
+.start-learning .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
 }
 
 .start-learning img{
     width: 100%;
-}
+} */
