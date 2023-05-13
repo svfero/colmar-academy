@@ -95,18 +95,33 @@ li{
 
 /* START LEARNING SECTION */
 
-
 .start-learning{
     background-color: rgb(222, 221, 221);
+    padding-top: 10px;
+    padding-bottom: 32px;
+}
+
+.start-learning h2{
+    text-align: center;
 }
 
 .start-learning .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
+    gap: 32px;
+    margin: 32px 72px;
 }
 
 .start-learning img{
     width: 100%;
+    height: auto;
+}
+
+.start-learning .card{
+    background-color: white;
+}
+
+.start-learning h3, .start-learning p{
+    margin: 16px;
 }
