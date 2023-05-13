@@ -103,3 +103,12 @@ li{
 
 /* START LEARNING SECTION */
 
+.start-learning .card{
+    width: 30%;
+    display: inline-block;
+    justify-items: space-between;
+}
+
+.start-learning img{
+    width: 100%;
+}
