@@ -127,3 +127,34 @@ li{
 }
 
 /* THESIS SECTION */
+
+.thesis .title{
+    text-align: center;
+    margin-top: 32px;
+}
+
+.thesis .grid{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 24px;
+    grid-template-rows: 1fr;
+    margin: 32px 24px;
+}
+
+.thesis video, .thesis img{
+    width: 100%;
+}
+
+.thesis .small{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3 1fr);
+    gap: 24px;
+}
+
+.thesis .card{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 35% 65%;
+    gap: 24px;
+}
