@@ -174,13 +174,12 @@ footer ul{
 
 /* SMALLER SCREEN SIZES */
 
-.mobile-nav{
+.mobile .nav{
     height: 64px;
 }
 
 .icons{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
     justify-content: space-between;     
 }
 
