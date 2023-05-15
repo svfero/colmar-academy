@@ -81,6 +81,7 @@ li{
 
 .info img{
     width: 100%;
+    height: auto;
 }
 
 .info .small{
@@ -173,16 +174,19 @@ footer ul{
 
 /* SMALLER SCREEN SIZES */
 
-.mobile{
+.mobile-nav{
     height: 64px;
 }
 
 .icons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;     
 }
 
 @media only screen and (max-width: 925px) {
+
+    /* NAV */
     .mobile{
         display: block;        
     }
@@ -190,6 +194,8 @@ footer ul{
     .desktop{
         display: none;
     }
+
+    /* HERO */
 
     .hero img{
         display: block;
@@ -202,4 +208,45 @@ footer ul{
         padding: 32px 16px;
         width: auto;
     }
+
+    /* INFO */
+
+    .info{
+        display: block;
+    }
+
+    .info .small, .info .block, .info .card{
+        display: block;
+        padding: 16px;
+    }
+
+    /* START LEARNING */
+    .start-learning .container{
+        display: block;
+    }
+
+    .start-learning .card{
+        background-color: rgb(222, 221, 221);
+    }
+
+    .start-learning .mobile h3{
+        padding: 16px;
+    }
+
+    .start-learning{
+        background-color: white;
+    }
+
+    /* THESIS */
+    .thesis{
+        height: auto;
+        display: block;
+    }
+
+    /* FOOTER */
+    footer{
+        position: relative;
+        bottom: 10px;
+    }
+
 }
